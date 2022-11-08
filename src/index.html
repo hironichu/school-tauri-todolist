@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="main-title">Todo list</h1>
+      <div class="task__manage">
+        <input type="text" class="task__input" id="newtaskInput" placeholder="Add a new task" />
+        <button class="task__add" id="addTask">Add</button>
+        <button class="task__clear" id="clearDone">Clear done</button>
+      </div>
+      <ul class="task__list" id="tasksList">
+      </ul>
+    </div>
+  </body>
+</html>
